@@ -1,0 +1,90 @@
+﻿body{
+    background-color:#d6ebf1;
+    height:500px;
+}
+#big{
+    margin:auto 0;     
+}
+#body{
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+    height:600px;
+    text-align:center;
+}
+#login{
+    width:410px;
+    height:330px;
+    background-color:#d6e6e6;
+    position:relative;
+    top:-500px;
+    left:500px;
+    box-shadow:#ffffff 0px 0px 2px 2px;
+    z-index:1;
+}
+
+ul{
+    width:410px;
+    height:100px;
+    z-index:2;
+    position:relative;
+    top:-370px;
+    left:465px;
+}
+li{
+    width:135px;
+    height:30px;
+    list-style:none;
+    float:left;
+    color:#109dcb;
+    font:16px;
+    margin-top:-15px;
+    font-weight:600;
+    padding-top:10px;
+}
+li:hover{
+    font-size:18px;
+    cursor:pointer;
+    background-color:#ffffff;
+}
+#log{
+    z-index:3;
+     position:relative;
+    top:-760px;
+    left:200px;
+}
+.s1{
+    width:230px;
+    height:30px;
+}
+#workID{
+    display:none ;
+}
+#account{
+    display:none ;
+}
+#foot{
+    margin-top:-20px;
+}
+#bt1{
+    width:90px;
+    height:35px;
+    margin-left:50px;
+}
+#pwd{
+    color:#109dcb;
+    margin-left:10px;
+    text-decoration:none
+}
+#zhuce{
+    color:#109dcb;
+   text-decoration:none;
+   display:none;
+}
+#last{
+    width:1000px;
+    text-align:center;
+    position:absolute;
+    margin-top:-600px;
+}

@@ -1,0 +1,792 @@
+﻿body {
+    font:"宋体";
+    font-size:12pt;
+}
+.border {
+             width: 60px; 
+             height:35px;
+             vertical-align:middle;
+             border-bottom-width:0px;
+	         border-top-width:0px;
+	         border-left:#FFF solid 1px;
+	         border-right-width:0px;         
+        }
+        .border1 {
+            width: 60px; 
+             height:35px;
+             vertical-align:middle;
+             border-bottom-width:0px;
+	         border-top-width:0px;
+	         border-left:#FFF solid 1px;
+	         border-right:#FFF solid 1px;         
+        }
+
+        .daohangt{
+            margin-left:200px;
+            text-align:center;
+        }
+        .daohang{
+            width:1350px;
+            height:37px;
+	        position:absolute;
+            background-color:#46a0e1;	
+            margin-top:0px;
+           
+}
+        .daohangt a:hover{
+	        text-decoration:underline;
+	    }
+        .daohangt a{
+            text-decoration:none;
+            color:white;
+        }
+
+        .middle{ 
+            width:1000px;
+            height:400px;           
+            margin-left:200px;
+        }
+        .picture{
+            width:1000px;
+            height:230px;  
+            background-image:url(/image/pb1.png);
+        }
+        .touxiang{
+            position:absolute;
+            margin-top:40px;
+            margin-left:450px;
+        }
+       
+        .daohang1{
+            height:45px;
+            background-color:#eaeaea;
+        }
+         .daohang1t{
+            text-align:center;
+        }
+         .daohang1 a{
+            text-decoration:none;
+            color:black;
+            font-size:15pt;
+            text-align:center;
+        }
+
+         /*第一个div切换样式*/
+        .none {display: none;}
+        .block {display: block;}
+
+        .s_c {width:1000px;text-align: center;}
+       
+        .c_0 {background-color: #eaeaea;} /*隐藏状态*/
+        .c_1 {background-color: #46a0e1;} /*显示状态*/
+
+        .s_b{ 
+            border:1px solid #46a0e1;
+            }
+        #si{
+            margin-top:20px;
+        }
+        #s2{
+            width:1000px;
+            position:absolute;
+            margin-left:200px;
+            margin-top:10px;
+        }
+       
+       
+        .user{
+            background-color:#eaeaea;
+            text-align:center;
+        }
+        .user a{
+            text-decoration:none;
+            text-align:center;
+            color:black;
+        }
+        .hidden {
+            display:none;
+        }
+        #s5 {
+            display:none;
+        }
+        #s2 {
+            display:none;
+        }
+        #s3 {
+            display:none;
+        }
+        #s4 {
+            display:none;
+        }
+        
+
+        /*第二个div切换(账户设置)*/
+         .x_c {width:1000px;text-align: center;}
+         .x_b{ 
+            border:1px solid #46a0e1;
+            }
+        #xi{
+            margin-top:20px;
+        }
+         .d_0 {background-color: #eaeaea;} /*隐藏状态*/
+         .d_1 {background-color: #46a0e1;} /*显示状态*/
+
+        #x2 {
+            display:none;
+        }
+        #x3 {
+            display:none;
+        }
+        #x4 {
+            display:none;
+        }
+        .userinfo{
+            text-align:center;
+            background-color:#eaeaea;
+            position:absolute;
+            margin-top:-110px;
+            margin-left:380px;
+            width:823px;
+            height:500px;
+        }
+        .userinfot1{
+            position:absolute;
+            margin-left:150px;
+            margin-top:100px;
+        }
+       
+        .t1{
+            width:80px;
+            text-align:right;
+        }
+         .t01{
+            width:200px;
+            height:25px;
+            text-align:left;
+        }
+        .t11{
+            width:300px;
+            height:30px;
+            text-align:left;
+            border:1px solid white;
+        }
+        .t101{
+            text-align:left;
+        }
+      
+        .t3{
+            width:200px;
+            height:50px;
+            text-align:right;
+        }
+        .tj{
+            width:300px;
+            height:60px;
+            text-align:left;
+            border:1px solid white;
+        }
+
+        /*第三个div切换(我的简历)*/
+         .u_c {width:1000px;text-align: center;}
+         .u_b{ 
+            border:1px solid #46a0e1;
+            }
+        #ui{
+            margin-top:20px;
+        }
+         .d_0 {background-color: #eaeaea;} /*隐藏状态*/
+         .d_1 {background-color: #46a0e1;} /*显示状态*/
+
+        #u2 {
+            display:none;
+        }
+        #u3 {
+            display:none;
+        }
+        .myj a{
+            text-decoration:none;
+            color:black;
+        }
+        .myj{            
+            background-color:#eaeaea;
+        }
+        .mynj{
+            text-align:center;
+            background-color:#eaeaea;
+            position:absolute;
+            width:760px;
+            height:300px;
+            margin-left:240px;
+            margin-top:-240px;
+        }
+        .mynj1{
+            text-align:center;
+            background-color:#eaeaea;
+            position:absolute;
+            width:760px;
+            height:600px;
+            margin-left:240px;
+            margin-top:-240px;
+        }
+        .myjt{
+            text-align:center;           
+        }
+        .borderb{
+            text-align:left;
+             vertical-align:middle;
+             border-bottom:#46a0e1 solid 1px;
+	         border-top-width:0px;
+	         border-left:#46a0e1 solid 3px;
+	         border-right-width:0px; 
+
+        }
+
+        /*第四个div切换(我的求职)*/
+         .w_c {width:1000px;text-align: center;}
+         .w_b{ 
+            border:1px solid #46a0e1;
+            }
+        #wi{
+            margin-top:20px;
+        }
+         .d_0 {background-color: #eaeaea;} /*隐藏状态*/
+         .d_1 {background-color: #46a0e1;} /*显示状态*/
+
+        #w2 {
+            display:none;
+        }
+        #w3 {
+            display:none;
+          
+        }
+         .left1{
+            position:absolute;
+            margin-top:-120px;
+        }
+        .left2{
+            position:absolute;
+            margin-left:200px;
+            margin-top:-110px;
+        }
+        .mynjob{
+            text-align:center;
+            background-color:#eaeaea;
+            position:absolute;
+            width:760px;
+            height:300px;
+            position:absolute;
+            margin-left:430px;
+            margin-top:-110px;
+        }
+
+        .jobt{
+            width:300px;
+            height:40px;
+
+            margin-left:200px;
+        }
+
+        .jobtd{
+            background-color:#46a0e1;
+        }
+
+        
+
+        .lanrenzhijia{
+            position:absolute;
+            margin-left:1220px;
+            margin-top:-35px;
+        }
+        .lanrenzhijia li{
+            list-style-type:none;
+        }
+         .lanrenzhijia li a {
+                color: #FFF;
+                text-decoration: none;
+                display: block;
+                float: left;
+                height: 30px;
+                width:60px;
+                line-height: 30px;
+                padding: 0px 15px;
+                font-size: 13px;
+                background: #46a0e1;
+            }
+
+                .lanrenzhijia li a:hover {
+                    background: #2c7bea;
+                }
+
+            .lanrenzhijia li {
+                float: left;
+                position: relative;
+                height: 30px;
+                width:80px;
+                line-height: 30px;
+                text-align:center;
+            }
+
+                .second {
+                    position: absolute;
+                    left: 0;
+                    display: none;
+                }
+        /*Search页面css代码*/
+        .search{
+            width:1000px;
+            height:150px;
+            background-color:#eaeaea;
+            position:absolute;
+            margin-top:50px;     
+        }
+        .student{
+            width:1000px;
+            height:470px;
+            background-color:#eaeaea;
+            position:absolute;
+            margin-left:200px;
+            margin-top:-180px;
+        }
+        .box {
+        display:none;
+        float: left;
+        height: 200px;
+        width: 300px;
+        background-color: #ffffff;
+        box-shadow: #cccae5 0px 0px 3px 3px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+        .box1{
+        float: left;
+        height: 200px;
+        width: 400px;
+        background-color: #ffffff;
+        box-shadow: #cccae5 0px 0px 3px 3px;
+        margin-left: 70px;
+        margin-top: 20px;
+        }
+         .boxx {
+        float: left;
+        height: 200px;
+        width: 300px;
+        background-color: #ffffff;
+        box-shadow: #cccae5 0px 0px 3px 3px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+        .b1{
+            margin-top:70px;
+            margin-left:100px;
+        }
+        .b2{
+            margin-left:100px;
+            margin-top:10px;
+        }
+    .name{
+        font-size:24px;
+        margin-left:10px;
+        margin-top:10px;
+        font-weight:bold;
+    
+    }
+    .name a{
+        color:#7d7979;
+        text-decoration:none;
+    }
+    .te1 {
+        height: 98px; 
+        width: 130px; 
+        margin-left:140px;
+        margin-top:-25px;
+    }
+    .infor{
+        margin-left:10px;
+        margin-top:-65px;
+        font-weight:500;
+        line-height:30px;
+    }
+    .infor a{
+        color:#7d7979;
+        text-decoration:none;
+    }
+    .praise{
+        margin-left:120px;
+        margin-top:20px;
+    }
+    .praise a{
+        text-decoration:none;
+    }
+.job1 {
+    width: 1000px;
+    height: 380px;
+    background-color: #eaeaea;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 320px;
+}   
+
+.jobbox{
+        display:none;
+        float: left;
+        height: 100px;
+        width: 300px;
+        background-color: #ffffff;
+        box-shadow: #cccae5 0px 0px 3px 3px;
+        margin-left: 20px;
+        margin-top: 20px;
+} 
+.jobbox1{
+        float: left;
+        height: 100px;
+        width: 300px;
+        background-color: #ffffff;
+        box-shadow: #cccae5 0px 0px 3px 3px;
+        margin-left: 20px;
+        margin-top: 20px;
+} 
+#DropDownListsearch{
+    width:150px;
+    height:30px;
+    margin-top:70px;
+    margin-left:200px;
+}  
+#Textsearch{
+    width:200px;
+    height:30px;
+} 
+#Textcompany{
+    width:400px;
+    height:25px;
+    margin-left:400px;
+    margin-top:20px;
+}
+#Buttoncompany{
+    width:100px;
+    height:30px;
+    
+}
+
+.companys{
+    margin-top:20px;
+}
+.companyall{
+    background-color:#eaeaea;
+    width:700px;
+    height:900px;
+    position:absolute;
+    margin-top:220px;
+}
+.companypic{
+    position:absolute;
+    margin-top:220px;
+    margin-left:720px;
+}
+.companybox{
+    float: left;
+    height: 90px;
+    width: 550px;
+    background-color: #ffffff;
+    box-shadow: #cccae5 0px 0px 3px 3px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.companyjob{
+     height: 98px; 
+     width: 130px; 
+     font-size:12pt;
+     margin-left:50px;
+     margin-top:15px;
+}
+.companyjob a{
+    color:#7d7979;
+    text-decoration:none;
+}
+.companyplace{
+     height: 98px; 
+     width: 150px; 
+     font-size:12pt;
+     margin-left:350px;
+     margin-top:-120px;
+}
+.companyplace a{
+    color:#7d7979;
+    text-decoration:none;
+}
+#goTopBtn{
+    position:fixed;
+    bottom:35px;
+    cursor:pointer;
+    right:0px;
+     _position: absolute;
+     _right: auto;
+}
+.mymes{
+    width:600px;
+    height:400px;
+    position:absolute;
+    background-color:#eaeaea;
+    margin-left:200px;
+    margin-top:-100px;
+}
+.jobget{
+    width:370px;
+    height:400px;
+    position:absolute;
+    background-color:#eaeaea;
+    margin-left:830px;
+    margin-top:-100px;
+}
+.xinxi{
+    width:500px;
+    position:absolute;
+    margin-left:200px;
+}
+.xinxi ul li{
+    list-style-type:none;
+    height: 50px;
+    width:400px;
+    line-height: 50px;
+    text-align:left;
+}
+.xinxi a{
+    text-decoration:none;
+}
+.big1{
+    height:1200px;
+    background-color:aliceblue;
+}
+.lunpic{
+    width:1000px;
+    height:240px;
+    background-color:white;
+}
+.lunl{
+    width:1000px;
+    height:40px;
+    background-color:#eaeaea;
+}
+.lunl table{
+    background-color:#b1afaf;
+    text-align:center;
+}
+.lunall{
+    width:1000px;
+    height:800px;
+    background-color:white;
+}
+.luna{
+    width:1000px;
+    height:100px;
+    border-bottom:solid 1px;
+    border-color:#808080;
+}
+.number{
+    width:50px;
+    height:20px;
+    background-color:#eaeaea;
+    position:absolute;
+    margin-left:10px;
+    margin-top:10px;
+    text-align:center;
+}
+.lunbt{
+    width:700px;
+    height:40px;
+    position:absolute;
+    margin-left:100px;
+     margin-top:10px;
+}
+.lunbt a{
+    text-decoration:none;
+}
+.lunxinxi{
+    width:700px;
+    height:50px;
+    position:absolute;
+    margin-top:50px;
+    margin-left:100px;
+}
+.luntime{
+    width:200px;
+    height:40px;
+    position:absolute;
+    margin-left:800px;
+    margin-top:80px;
+}
+.lunuser{
+    width:200px;
+    height:40px;
+    position:absolute;
+    margin-left:800px;
+    margin-top:50px;
+}
+.lunbiaot{
+    height:30px;
+    margin-top:10px;
+}
+.lunbiaot a{
+    text-decoration:none;
+    color:black;
+}
+.lunevery{
+    width:1000px;
+    height:200px;
+    border-top:solid 1px;
+    border-color:#808080;
+    border-bottom:solid 1px;
+}
+#Buttonanser{
+    position:absolute;
+    margin-top:-30px;
+    margin-left:800px;
+}
+.lunname{
+    position:absolute;
+    margin-top:30px;
+    color:blue;
+}
+.lunneir{
+    position:absolute;
+    margin-top:30px;
+    margin-left:80px;
+    width:920px;
+}
+.lunshij{
+    position:absolute;
+    margin-top:160px;
+    margin-left:800px;
+}
+.say{
+    position:absolute;
+    margin-top:50px;
+    margin-left:800px;
+}
+.pingl{
+     position:absolute;
+    margin-top:90px;
+    margin-left:80px;
+}
+#bu{
+    position:absolute;
+    margin-top:100px;
+    margin-left:800px;
+}
+.huifu{
+    margin-top:20px;
+    margin-left:80px;
+}
+#Buttonfb{
+    margin-top:10px;
+    margin-left:800px;
+}
+.tie{
+    background-color:white;
+    width:1000px;
+    height:900px;
+}
+.mycjl{
+        float: left;
+        height: 200px;
+        width: 700px;
+        background-color: #ffffff;
+        box-shadow: #cccae5 0px 0px 3px 3px;
+        margin-left: 40px;
+        margin-top: 20px;
+}
+.mycjl1{
+        float: left;
+        height: 500px;
+        width: 700px;
+        background-color: #ffffff;
+        box-shadow: #cccae5 0px 0px 3px 3px;
+        margin-left: 40px;
+        margin-top: 20px;
+}
+.mymb{
+    margin-top:80px;
+    margin-left:50px;
+   position:absolute;
+   color:#808080;
+}
+ .datouxiang{
+            position:absolute;
+            margin-top:40px;
+            margin-left:100px;
+        }
+ .dauser{
+            position:absolute;
+            margin-top:150px;
+            margin-left:110px;
+ }
+ .dabj{
+     width:140px;
+     height:40px;    
+     text-align:center;
+     position:absolute;
+     margin-left:230px;
+     margin-top:100px;
+ }
+#txsc 
+{
+    width:100px;
+    height:50px;
+   /* border:solid 1px #46a0e1;*/
+    padding-left:450px;
+    padding-top:150px;
+    display:none;
+}
+#Buttonxiugai{
+    width:100px;
+    height:30px;
+    background-color:#46a0e1;
+    border:none;
+    font-size:12pt;
+}
+#Buttonquxiao{
+    width:100px;
+    height:30px;
+    background-color:#46a0e1;
+    border:none;
+    font-size:12pt;
+}
+#Buttonyes{
+    width:100px;
+    height:30px;
+    background-color:#46a0e1;
+    border:none;
+    font-size:12pt;
+  
+}
+#Buttonno{
+    width:100px;
+    height:30px;
+    background-color:#46a0e1;
+    border:none;
+    font-size:12pt;
+}
+#Buttonpwd{
+    width:200px;
+    height:50px;
+    background-color:#46a0e1;
+    border:none;
+    font-size:15pt;
+    color:white;
+}
+
+#Buttonup{
+    width:100px;
+    height:30px;
+    background-color:#46a0e1;
+    border:none;
+    font-size:12pt;
+    color:white;
+}
+#Buttonup1{
+    width:100px;
+    height:30px;
+    background-color:#46a0e1;
+    border:none;
+    font-size:12pt;
+    
+}

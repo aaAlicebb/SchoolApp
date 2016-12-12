@@ -1,0 +1,140 @@
+﻿ul li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+#big{
+    margin:auto 0;
+    width:auto;
+    height:auto;
+    color:#808080;
+}
+#hand{
+    width:100%;
+    height:37px;
+    background-color:#46a0e1;
+    text-align:center;
+    font-size:28px;
+    letter-spacing:1em;
+    font-weight:bold;
+    color:#eaeaea;
+}
+#body{
+    width:700px;
+    height:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#eaeaea;
+    margin-top:10px;
+}
+#infor{
+    line-height:60px;
+    margin-left:40px;
+    padding-top:10px;
+}
+#major{
+    line-height:20px;
+    width:650px;
+    height:230px;
+    border:#808080 solid 1px;
+    display:none;
+    position:absolute;
+    top:240px;
+    background-color:#ffffff;
+}
+#major ul{
+    margin-left:-20px;
+}
+#major ul li{
+    float:left;
+    text-align:left;
+    margin-top:10px;
+    margin-left:10px;
+    color:#46a0e1;
+    font:bold;
+}
+#major ul li a{
+    color:#808080;
+    margin-left:10px;
+    margin-top:10px;
+}
+#major ul li a:hover{
+    background-color:#cbd3d0;
+    width:80px;
+    height:20px;
+}
+.tt{
+    width:190px;
+    height:30px;
+    margin-left:20px;
+    font-size:16px;
+    color:#808080;
+}
+.ts{
+    width:370px;
+    height:30px;
+    margin-left:20px;
+}
+#t6{
+    width:360px;
+    height:200px;
+    margin-left:20px;
+}
+.ta{
+    margin-left:20px;
+}
+#last{
+    text-align:center;
+    margin-top:60px;
+}
+.bt{
+    width:100px;
+    height:40px;
+    border-style:none;
+    background-color:#46a0e1;
+    font-size:18px;
+}
+.bt:hover{
+    cursor:pointer;
+}
+
+ .lanrenzhijia{
+            position:absolute;
+            margin-left:1220px;
+            margin-top:-35px;
+        }
+        .lanrenzhijia li{
+            list-style-type:none;
+        }
+         .lanrenzhijia li a {
+                color: #FFF;
+                text-decoration: none;
+                display: block;
+                float: left;
+                height: 30px;
+                width:60px;
+                line-height: 30px;
+                padding: 0px 15px;
+                font-size: 13px;
+                background: #46a0e1;
+            }
+
+                .lanrenzhijia li a:hover {
+                    background: #2c7bea;
+                }
+
+            .lanrenzhijia li {
+                float: left;
+                position: relative;
+                height: 30px;
+                width:80px;
+                line-height: 30px;
+                text-align:center;
+            }
+
+                .second {
+                    position: absolute;
+                    left: 0;
+                    display: none;
+                }

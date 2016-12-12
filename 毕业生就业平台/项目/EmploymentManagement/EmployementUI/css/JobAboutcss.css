@@ -1,0 +1,350 @@
+﻿body {
+    font:"宋体";
+    font-size:12pt;
+    background-color:aliceblue;
+}
+.border {
+             width: 60px; 
+             height:35px;
+             vertical-align:middle;
+             border-bottom-width:0px;
+	         border-top-width:0px;
+	         border-left:#FFF solid 1px;
+	         border-right-width:0px;         
+        }
+.border1 {
+            width: 60px; 
+             height:35px;
+             vertical-align:middle;
+             border-bottom-width:0px;
+	         border-top-width:0px;
+	         border-left:#FFF solid 1px;
+	         border-right:#FFF solid 1px;         
+        }
+
+.daohangt{
+            margin-left:200px;
+            text-align:center;
+        }
+.daohang{
+            width:1350px;
+            height:37px;
+	        position:absolute;
+            background-color:#46a0e1;	
+            margin-top:0px;
+           
+}
+.daohangt a:hover{
+	        text-decoration:underline;
+	    }
+.daohangt a{
+            text-decoration:none;
+            color:white;
+        }
+.lanrenzhijia{
+            position:absolute;
+            margin-left:1220px;
+            margin-top:-35px;
+        }
+.lanrenzhijia li{
+            list-style-type:none;
+        }
+.lanrenzhijia li a {
+                color: #FFF;
+                text-decoration: none;
+                display: block;
+                float: left;
+                height: 30px;
+                width:60px;
+                line-height: 30px;
+                padding: 0px 15px;
+                font-size: 13px;
+                background: #46a0e1;
+            }
+
+.lanrenzhijia li a:hover {
+                    background: #2c7bea;
+                }
+
+.lanrenzhijia li {
+                float: left;
+                position: relative;
+                height: 30px;
+                width:80px;
+                line-height: 30px;
+                text-align:center;
+            }
+
+.second {
+       position: absolute;
+       left: 0;
+       display: none;
+          }
+#goTopBtn{
+    position:fixed;
+    bottom:35px;
+    cursor:pointer;
+    right:0px;
+     _position: absolute;
+     _right: auto;
+}
+.center{
+      width:1000px;
+      height:870px;
+      text-align:center;
+      background-color:white;
+      position:absolute;
+      margin-left:200px;
+      margin-top:50px;
+          }
+.center1{
+      width:1000px;
+      height:1100px;
+      text-align:center;
+      background-color:white;
+      position:absolute;
+      margin-left:200px;
+      margin-top:50px;
+          }
+.jobname{
+    position:absolute;
+    margin-left:50px;
+    margin-top:20px;
+    font-size:17pt;
+    font-weight:bold;
+    color:#1485f2;
+}
+.jobintroduce{
+    width:700px;
+    height:100px;
+    position:absolute;
+    margin-left:50px;
+    margin-top:70px;
+}
+.jobintroduce table {
+    border:1px solid #d9d4d4;
+}
+.jobintroduce td{
+    border:1px solid #d9d4d4;
+}
+.jobintroduce tr{
+    border:1px solid #d9d4d4;
+}
+.jobin1{
+    background-color:#d9d4d4;
+    width:150px;
+}
+.jobmoney{
+    position:absolute;
+    margin-top:200px;
+    margin-left:50px;
+}
+.borderb{
+     text-align:left;
+     vertical-align:middle;
+     border-bottom:#d9d4d4 solid 2px;
+	 border-top-width:0px;
+	 border-right-width:0px;    
+        }
+.borderb1{
+     text-align:left;
+     vertical-align:middle;
+     border-bottom:#d9d4d4 solid 2px;
+	 border-top-width:0px;
+	 border-right-width:0px;
+     color:#1485f2;
+        }
+.jobmoney1{
+    position:absolute;
+    margin-left:5px;
+    margin-top:20px;
+}
+.jobmoney2{
+    position:absolute;
+    margin-left:5px;
+    margin-top:50px;
+}
+.zhaopx{
+    position:absolute;
+    margin-top:350px;
+    margin-left:50px;
+}
+.zhaopx1{
+     position:absolute;
+     margin-top:10px;
+     font-size:11pt;   
+}
+.zhaopx2{
+    position:absolute;
+     margin-top:35px;
+     margin-left:10px;
+     font-size:11pt; 
+}
+.zhaopx3{
+    position:absolute;
+     margin-top:55px;
+     margin-left:10px;
+     font-size:11pt; 
+}
+.zhaopx4{
+    position:absolute;
+     margin-top:75px;
+     margin-left:10px;
+     font-size:11pt; 
+}
+.zhaopx5{
+    position:absolute;
+     margin-top:95px;
+     margin-left:10px;
+     font-size:11pt; 
+}
+.companyx{
+    position:absolute;
+    margin-top:550px;
+    margin-left:50px;
+}
+.jobname1{
+    position:absolute;
+    margin-top:10px;
+    font-size:14pt;
+    font-weight:bold;
+    color:#1485f2;
+}
+.companyx1{
+    position:absolute;
+    margin-top:40px;
+}
+.companyx1 img{
+    position:absolute;
+    margin-top:5px;
+}
+.companyx2{
+    position:absolute;
+    margin-left:20px;
+    margin-top:5px;
+    width:100px;
+}
+.companyx3{
+    position:absolute;
+    margin-left:300px;
+    margin-top:45px;
+}
+.companyx4{
+    position:absolute;
+    width:200px;
+    margin-top:-23px;
+    margin-left:-10px;
+}
+.companyx5{
+    position:absolute;
+    margin-top:80px;
+}
+.companyx6{
+    position:absolute;
+    width:50px;
+    margin-top:-23px;
+    margin-left:30px;
+}
+.companyx7{
+    position:absolute;
+    margin-top:115px;
+    margin-left:20px;
+}
+.companjies{
+    position:absolute;
+    width:800px;
+    margin-top:150px;
+   
+}
+#last{
+    width:1000px;
+    text-align:center;
+    margin-top:900px; 
+}
+#last1{
+    width:1000px;
+    text-align:center;
+    margin-top:1120px; 
+}
+.myjinlititle{
+    position:absolute;
+    margin-top:10px;
+    margin-left:240px;
+}
+.myjianlizw{
+    position:absolute;
+    margin-top:80px;
+    margin-left:50px;
+}
+.myjlphoto{
+    position:absolute;
+    margin-left:10px;
+    margin-top:10px;
+}
+.myjianlizwtab{
+    position:absolute;
+    margin-left:150px;
+    margin-top:10px;
+}
+.myjianlizwtab table{
+    border:1px solid #d9d4d4;
+}
+.myjianlizwtab tr{
+    border:1px solid #d9d4d4;
+}
+.myjianlizwtab td{
+    border:1px solid #d9d4d4;
+}
+.jinliname{
+    background-color:#d9d4d4;
+}
+.edubc{
+    position:absolute;
+    margin-top:300px;
+    margin-left:50px;
+}
+.edutime{
+    position:absolute;
+    margin-top:10px;
+    margin-left:10px;
+}
+.edutab{
+    position:absolute;
+    margin-top:10px;
+    margin-left:150px;
+}
+.edutab td{
+    border:1px solid #d9d4d4;
+}
+.ryjl{
+    position:absolute;
+    margin-top:500px;
+    margin-left:50px;
+}
+.jlmx{
+    position:absolute;
+    margin-top:10px;
+    margin-left:70px;
+}
+.zs{
+    position:absolute;
+    margin-top:700px;
+    margin-left:50px;
+}
+.zsmx{
+     position:absolute;
+    margin-top:10px;
+    margin-left:150px;
+}
+.qzqw{
+    position:absolute;
+    margin-top:900px;
+    margin-left:50px;
+}
+.qzqwtab{
+    position:absolute;
+    margin-top:10px;
+    margin-left:80px;
+}
+
+

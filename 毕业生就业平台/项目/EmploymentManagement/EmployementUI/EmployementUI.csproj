@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C2B50EA-99DB-402A-BB8A-47B3939D793A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EmployementUI</RootNamespace>
+    <AssemblyName>EmployementUI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\admin.css" />
+    <Content Include="css\cssWebStudent.css" />
+    <Content Include="css\enroll.css" />
+    <Content Include="css\enterprise.css" />
+    <Content Include="css\findTelent.css" />
+    <Content Include="css\homepage.css" />
+    <Content Include="css\Job hunting.css" />
+    <Content Include="css\JobAboutcss.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\recruit.css" />
+    <Content Include="css\research.css" />
+    <Content Include="css\resumeUp.css" />
+    <Content Include="css\StyleSheet1.css" />
+    <Content Include="css\Teacss.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="enroll.aspx" />
+    <Content Include="homepage.aspx" />
+    <Content Include="image\1.png" />
+    <Content Include="image\123.jpg" />
+    <Content Include="image\2.png" />
+    <Content Include="image\21.png" />
+    <Content Include="image\221.png" />
+    <Content Include="image\3.png" />
+    <Content Include="image\35.png" />
+    <Content Include="image\4.png" />
+    <Content Include="image\456.jpg" />
+    <Content Include="image\5.png" />
+    <Content Include="image\6.png" />
+    <Content Include="image\63203.png" />
+    <Content Include="image\7.png" />
+    <Content Include="image\8.png" />
+    <Content Include="image\89.png" />
+    <Content Include="image\9.png" />
+    <Content Include="image\big.png" />
+    <Content Include="image\bjda.png" />
+    <Content Include="image\bodyBg.jpg" />
+    <Content Include="image\bodyBg2.jpg" />
+    <Content Include="image\bodyBg3.jpg" />
+    <Content Include="image\company.png" />
+    <Content Include="image\gotop.png" />
+    <Content Include="image\home1.png" />
+    <Content Include="image\home2.png" />
+    <Content Include="image\home3.png" />
+    <Content Include="image\home4.png" />
+    <Content Include="image\home5.png" />
+    <Content Include="image\home6.png" />
+    <Content Include="image\jieshao.png" />
+    <Content Include="image\jlcc.png" />
+    <Content Include="image\jlpb.png" />
+    <Content Include="image\jltd.png" />
+    <Content Include="image\job1.png" />
+    <Content Include="image\job10.jpg" />
+    <Content Include="image\job11.jpg" />
+    <Content Include="image\job12.jpg" />
+    <Content Include="image\job2.png" />
+    <Content Include="image\job3.png" />
+    <Content Include="image\job4.png" />
+    <Content Include="image\job5.png" />
+    <Content Include="image\job6.jpg" />
+    <Content Include="image\job7.jpg" />
+    <Content Include="image\job8.jpg" />
+    <Content Include="image\job9.jpg" />
+    <Content Include="image\l.png" />
+    <Content Include="image\newzp.jpg" />
+    <Content Include="image\photo.png" />
+    <Content Include="image\photo1.png" />
+    <Content Include="image\qzzs.png" />
+    <Content Include="image\r.png" />
+    <Content Include="image\renshu.png" />
+    <Content Include="image\s1.png" />
+    <Content Include="image\s10.png" />
+    <Content Include="image\s2.png" />
+    <Content Include="image\s3.png" />
+    <Content Include="image\s4.png" />
+    <Content Include="image\s5.png" />
+    <Content Include="image\s6.png" />
+    <Content Include="image\s7.png" />
+    <Content Include="image\s8.png" />
+    <Content Include="image\s9.png" />
+    <Content Include="image\shu.png" />
+    <Content Include="image\suo.png" />
+    <Content Include="image\t-1.png" />
+    <Content Include="image\tobig.jpg" />
+    <Content Include="image\topbox.png" />
+    <Content Include="image\tx.png" />
+    <Content Include="image\w1.png" />
+    <Content Include="image\w2.png" />
+    <Content Include="image\w3.png" />
+    <Content Include="image\w4.png" />
+    <Content Include="image\bh.png" />
+    <Content Include="image\wwitem.png" />
+    <Content Include="image\xingzhi.png" />
+    <Content Include="image\目录.png" />
+    <Content Include="InterfacePhoto.aspx" />
+    <Content Include="Job hunting.aspx" />
+    <Content Include="photo.png" />
+    <Content Include="recruit.aspx" />
+    <Content Include="resumeUp.aspx" />
+    <Content Include="saLogin.aspx" />
+    <Content Include="findTelent.aspx" />
+    <Content Include="image\myj.png" />
+    <Content Include="image\newj.png" />
+    <Content Include="image\pb1.png" />
+    <Content Include="image\touxiang.png" />
+    <Content Include="image\tu.jpg" />
+    <Content Include="image\tz.png" />
+    <Content Include="login.aspx" />
+    <Content Include="Scripts\JavaScript job.js" />
+    <Content Include="Scripts\JavaScript1.js" />
+    <Content Include="Scripts\JavaScriptHome.js" />
+    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\JSadmin.js" />
+    <Content Include="Scripts\StudentSelfMesJavaScript.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebAdmin.aspx" />
+    <Content Include="WebCompany.aspx" />
+    <Content Include="WebCompanyMes.aspx" />
+    <Content Include="WebIndex.aspx" />
+    <Content Include="WebJobAbout.aspx" />
+    <Content Include="WebLTE.aspx" />
+    <Content Include="WebLunT.aspx" />
+    <Content Include="WebMyJianli.aspx" />
+    <Content Include="WebSearch.aspx" />
+    <Content Include="webStudentSelfMes.aspx" />
+    <Content Include="webTeacherSelfMes.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddResume.ashx.cs">
+      <DependentUpon>AddResume.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateResumeControl.ashx.cs">
+      <DependentUpon>CreateResumeControl.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="enroll.aspx.cs">
+      <DependentUpon>enroll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="enroll.aspx.designer.cs">
+      <DependentUpon>enroll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="enrollControl.ashx.cs">
+      <DependentUpon>enrollControl.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="homepage.aspx.cs">
+      <DependentUpon>homepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homepage.aspx.designer.cs">
+      <DependentUpon>homepage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InterfacePhoto.aspx.cs">
+      <DependentUpon>InterfacePhoto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InterfacePhoto.aspx.designer.cs">
+      <DependentUpon>InterfacePhoto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Job hunting.aspx.cs">
+      <DependentUpon>Job hunting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Job hunting.aspx.designer.cs">
+      <DependentUpon>Job hunting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="recruit.aspx.cs">
+      <DependentUpon>recruit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="recruit.aspx.designer.cs">
+      <DependentUpon>recruit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="resumeUp.aspx.cs">
+      <DependentUpon>resumeUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="resumeUp.aspx.designer.cs">
+      <DependentUpon>resumeUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="saLogin.aspx.cs">
+      <DependentUpon>saLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="saLogin.aspx.designer.cs">
+      <DependentUpon>saLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="findTelent.aspx.cs">
+      <DependentUpon>findTelent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="findTelent.aspx.designer.cs">
+      <DependentUpon>findTelent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginControl.ashx.cs">
+      <DependentUpon>LoginControl.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="selfMesControl.ashx.cs">
+      <DependentUpon>selfMesControl.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="WebAdmin.aspx.cs">
+      <DependentUpon>WebAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebAdmin.aspx.designer.cs">
+      <DependentUpon>WebAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebCompany.aspx.cs">
+      <DependentUpon>WebCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebCompany.aspx.designer.cs">
+      <DependentUpon>WebCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebCompanyMes.aspx.cs">
+      <DependentUpon>WebCompanyMes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebCompanyMes.aspx.designer.cs">
+      <DependentUpon>WebCompanyMes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebIndex.aspx.cs">
+      <DependentUpon>WebIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebIndex.aspx.designer.cs">
+      <DependentUpon>WebIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebJobAbout.aspx.cs">
+      <DependentUpon>WebJobAbout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebJobAbout.aspx.designer.cs">
+      <DependentUpon>WebJobAbout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebLTE.aspx.cs">
+      <DependentUpon>WebLTE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebLTE.aspx.designer.cs">
+      <DependentUpon>WebLTE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebLunT.aspx.cs">
+      <DependentUpon>WebLunT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebLunT.aspx.designer.cs">
+      <DependentUpon>WebLunT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebMyJianli.aspx.cs">
+      <DependentUpon>WebMyJianli.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebMyJianli.aspx.designer.cs">
+      <DependentUpon>WebMyJianli.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebSearch.aspx.cs">
+      <DependentUpon>WebSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebSearch.aspx.designer.cs">
+      <DependentUpon>WebSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webStudentSelfMes.aspx.cs">
+      <DependentUpon>webStudentSelfMes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webStudentSelfMes.aspx.designer.cs">
+      <DependentUpon>webStudentSelfMes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="webTeacherSelfMes.aspx.cs">
+      <DependentUpon>webTeacherSelfMes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="webTeacherSelfMes.aspx.designer.cs">
+      <DependentUpon>webTeacherSelfMes.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="files\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LoginControl.ashx" />
+    <Content Include="selfMesControl.ashx" />
+    <Content Include="CreateResumeControl.ashx" />
+    <Content Include="enrollControl.ashx" />
+    <Content Include="AddResume.ashx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EmBLL\EmBLL.csproj">
+      <Project>{f85db7b1-bf6e-4bad-aac7-7bdfc91baf9b}</Project>
+      <Name>EmBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmModel\EmModel.csproj">
+      <Project>{8d57dc7f-8de5-4079-ab12-526c5c6c5f0e}</Project>
+      <Name>EmModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmployementMODEL\EmployementMODEL.csproj">
+      <Project>{2367bada-977f-4e63-9d2f-042e13afa8da}</Project>
+      <Name>EmployementMODEL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EmploymentBLL\EmploymentBLL.csproj">
+      <Project>{540f99d7-354c-4b99-accc-a438434bb616}</Project>
+      <Name>EmploymentBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQLHelper\SQLHelper.csproj">
+      <Project>{e01beb94-2293-417c-aea1-934cc0d12176}</Project>
+      <Name>SQLHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>21833</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:21833/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
