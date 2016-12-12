@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+             android:focusable="true"
+             android:focusableInTouchMode="true"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" >
+
+        
+
+<!--             <ImageView -->
+<!--                 android:id="@+id/photoImageView" -->
+<!--                 android:layout_width="100dp" -->
+<!--                 android:layout_height="100dp" -->
+<!--                 android:layout_gravity="center" -->
+<!--                 android:layout_marginTop="60dp" -->
+<!--                 android:src="@drawable/ic_user" -->
+<!--                  /> -->
+
+		   <com.example.common.view.CircleImageView
+            android:id="@+id/photoImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/ic_user"
+            app:border_color="@color/colorPrimaryLight"
+            app:border_width="2dp" />
+            <com.rey.material.widget.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:text="点击选择头像"
+                android:textColor="@color/colorTextSecondPrimary"
+                android:textSize="13sp" />
+			
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/nickEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:hint="输入昵称"
+                app:met_clearButton="true"
+                app:met_floatingLabel="highlight" />
+            
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/pwdEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="输入密码"
+                android:inputType="textPassword"
+                app:met_clearButton="true"
+                app:met_floatingLabel="highlight" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/repwdEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="确认密码"
+                android:inputType="textPassword"
+                app:met_clearButton="true"
+                app:met_floatingLabel="highlight" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/birthDayEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:hint="您的生日（选填）"
+                    android:inputType="text"
+                    app:met_clearButton="true"
+                    app:met_floatingLabel="normal" />
+
+                <com.rey.material.widget.Button
+                    android:id="@+id/chooseDateBtn"
+                    style="@style/RaiseColorButtonRippleStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="选择日期"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/addrEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="居住地点"
+                android:inputType="text"
+                app:met_clearButton="false"
+                app:met_floatingLabel="highlight" />
+
+            <com.rey.material.widget.Button
+                android:id="@+id/submitBtn"
+                style="@style/RaiseColorButtonRippleStyle"
+                android:layout_marginTop="30dp"
+                android:text="提交" />
+        </LinearLayout>
+
+        <include layout="@layout/layout_loading" />
+    </FrameLayout>
+
+</ScrollView>

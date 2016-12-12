@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.1.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd">
+	
+	<context:property-placeholder location="/WEB-INF/jdbc.properties" />
+	<bean id="stringHttpMessageConverter"
+		class="org.springframework.http.converter.StringHttpMessageConverter">
+
+		<property name="supportedMediaTypes">
+			<list>
+				<value>text/html;charset=UTF-8</value>
+				<value>text/plain;charset=UTF-8</value>
+				<value>application/json;charset=UTF-8</value>
+			</list>
+		</property>
+	</bean>
+
+
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass" value="${jdbc.driverClassName}" />
+		<property name="jdbcUrl" value="${jdbc.url}" />
+		<property name="user" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="maxPoolSize" value="20" />
+      <property name="maxStatements" value="0" />
+      <property name="minPoolSize" value="10" />
+      <property name="initialPoolSize" value="10"/>
+	</bean>
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<!-- <property name="configLocation" value="classpath:hibernate.cfg.xml" 
+			/> -->
+		<property name="dataSource" ref="dataSource" />
+		<property name="mappingDirectoryLocations" value="classpath:/com/example/entity" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.format_sql">true</prop>
+				<prop key= "hibernate.hbm2ddl.auto">update</prop>
+			</props>
+		</property>
+	</bean>
+	
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	 <!-- 配置事务拦截器 -->
+    <bean id="transactionInterceptor"
+       class="org.springframework.transaction.interceptor.TransactionInterceptor">
+       <!--  事务拦截器bean需要依赖注入一个事务管理器 -->
+       <property name="transactionManager">
+           <ref bean="transactionManager"/>
+       </property>
+       <property name="transactionAttributes">
+           <!--  下面定义事务传播属性-->
+           <props>
+              <prop key="*">PROPAGATION_REQUIRED</prop>
+              <prop key="save*">PROPAGATION_REQUIRED</prop>
+              <prop key="update*">PROPAGATION_REQUIRED</prop>
+              <prop key="delete*">PROPAGATION_REQUIRED</prop>
+           </props>
+       </property>
+    </bean>
+    <!-- 定义BeanNameAutoProxyCreator -->
+     <bean id="beanNameAutoProxyCreator"
+       class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+         <property name="beanNames">
+           <list>
+              <value>*Dao</value>
+           </list>
+       </property>  
+       <property name="interceptorNames">
+           <list>
+              <idref bean="transactionInterceptor" />
+           </list>
+       </property>
+       <property name="proxyTargetClass" value="true"/>
+    </bean> 
+    
+ <!-- 启动Spring MVC的注解功能，完成请求和注解POJO的映射 -->
+	<mvc:annotation-driven />
+	<!-- 自动扫描com.example.web 包下的@Controller标注的类控制器类 -->
+
+	 <context:component-scan base-package="com.example.web" />
+	<context:component-scan base-package="com.example.service" />
+  <context:component-scan base-package="com.example.userdao"/>
+
+
+<!--使用强大的切点表达式语言轻松定义目标方法 -->
+	<aop:config proxy-target-class="true">
+		<!--通过aop定义事务增强切面 -->
+		<aop:pointcut id="serviceMethod"
+			expression="execution(* com.example.service.*Service.*(..))" />
+		<!--引用事务增强 -->
+		<aop:advisor pointcut-ref="serviceMethod" advice-ref="txAdvice" />
+	</aop:config>
+
+	<!--事务增强 -->
+	 <tx:advice id="txAdvice" transaction-manager="transactionManager">
+		<!-- 事务属性定义 -->
+		<tx:attributes>
+			<tx:method name="*"/>
+		</tx:attributes>
+	</tx:advice> 
+	
+	<!-- <tx:annotation-driven transaction-manager="transactionManager" /> --></beans>
+	

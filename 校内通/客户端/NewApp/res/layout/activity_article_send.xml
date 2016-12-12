@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_arrow_back_white"
+        app:theme="@style/AppBar"
+        app:title="发表" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp" >
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/titleEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="top|left"
+                    android:hint="标题"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:visibility="gone"
+                    app:met_clearButton="true"
+                    app:met_floatingLabel="none" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/contentEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:gravity="top|left"
+                    android:hint="说点什么吧..."
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    app:met_clearButton="false"
+                    app:met_floatingLabel="none" />
+
+                <include layout="@layout/layout_send_image_grid" />
+
+            </LinearLayout>
+        </ScrollView>
+        
+        <com.melnykov.fab.FloatingActionButton
+            xmlns:fab="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/submitBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_done_white_24dp"
+            fab:fab_colorNormal="@color/colorAccent"
+            fab:fab_colorPressed="@color/colorPrimaryLight"
+            fab:fab_colorRipple="@color/ripple" />
+
+        <include layout="@layout/layout_loading" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f2f2f2"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mainToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_arrow_back_white"
+        app:theme="@style/AppBar"
+        app:title="详情" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/swipyRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="48dp"
+            app:direction="both" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f2f2f2"
+                    android:orientation="vertical" >
+
+                    <FrameLayout
+                        android:id="@+id/cardview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        >
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorPrimary"
+                            android:orientation="vertical"
+                            android:padding="8dp" >
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                xmlns:app="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/avatarImageView"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/ic_user"
+                                app:riv_border_color="@color/white"
+                                app:riv_border_width="1dp"
+                                app:riv_corner_radius="3dip"
+                                app:riv_mutate_background="true"
+                                app:riv_oval="false" />
+
+                            <com.rey.material.widget.TextView
+                                android:id="@+id/nameTextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="4dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_toRightOf="@+id/avatarImageView"
+                                android:text="熊大大"
+                                android:textColor="@color/white"
+                                android:textSize="15sp" />
+
+                            <com.rey.material.widget.TextView
+                                android:id="@+id/timeTextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/nameTextView"
+                                android:layout_marginLeft="4dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_toRightOf="@+id/avatarImageView"
+                                android:text="今天 09：35"
+                                android:textColor="#ececec"
+                                android:textSize="13sp" />
+
+                            <com.rey.material.widget.TextView
+                                android:id="@+id/contentTextView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/avatarImageView"
+                                android:layout_marginTop="4dp"
+                                android:text="哎呦，不错哦，哦呵呵，倒萨的阿萨德是安德森爱的撒旦撒旦阿斯"
+                                android:textColor="@color/white"
+                                android:textSize="16sp" />
+
+                            <com.example.common.view.NoScrollGridView
+                                android:id="@+id/photoGridView"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/contentTextView"
+                                android:layout_marginTop="4dp"
+                                android:horizontalSpacing="4dp"
+                                android:numColumns="3"
+                                android:stretchMode="columnWidth"
+                                android:verticalSpacing="4dp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="36dp"
+                                android:layout_below="@+id/photoGridView"
+                                android:layout_marginTop="4dp"
+                                android:background="#dddddd"
+                                android:orientation="horizontal" >
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal" >
+
+                                    <com.rey.material.widget.TextView
+                                        android:id="@+id/upNumTextView"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:clickable="true"
+                                        android:gravity="center"
+                                        android:text="赞  11"
+                                        android:textColor="@color/colorTextSecondPrimary"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <View
+                                    android:layout_width="2dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:background="#aaaaaa" />
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="horizontal" >
+
+                                    <com.rey.material.widget.TextView
+                                        android:id="@+id/commentNumTextView"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:text="评论  14"
+                                        android:textColor="@color/colorTextSecondPrimary"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </FrameLayout>
+
+                    <com.example.common.view.NoScrollListView
+                        android:id="@+id/commentListView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:cacheColorHint="#000000"
+                        android:divider="@color/colorDivider"
+                        android:dividerHeight="1dp" />
+                </LinearLayout>
+            </ScrollView>
+        </com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:background="#aaececec"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp" >
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/commentEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:hint="说点啥吧。。。"
+                android:inputType="text"
+                android:paddingRight="40dp"
+                android:textSize="14sp"
+                app:met_clearButton="false"
+                app:met_floatingLabel="none" />
+
+            <com.rey.material.widget.ImageButton
+                android:id="@+id/sendCommentButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_send" />
+        </RelativeLayout>
+        
+        <include layout="@layout/layout_loading"/>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app1="http://schemas.android.com/apk/res/com.example.newapp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="@bool/abc_action_bar_embed_tabs"
+    android:fitsSystemWindows="true" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+         android:alpha="0.2"
+        android:src="@drawable/bg_login" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="60dp"
+            android:alpha="0.5"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/jiazhang_app_icon" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/phoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:hint="电话号码"
+            android:inputType="phone"
+            android:linksClickable="@bool/abc_action_bar_embed_tabs"
+            android:textSize="15sp"
+            app:met_clearButton="true"
+            app:met_floatingLabel="highlight"
+            app:met_iconLeft="@drawable/ic_person_black_24dp"
+            app:met_iconPadding="0dp"
+            app1:met_singleLineEllipsis="@bool/abc_action_bar_embed_tabs" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/pwdEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:hint="输入密码"
+            android:inputType="textPassword"
+            android:textSize="15sp"
+            app:met_clearButton="true"
+            app:met_floatingLabel="highlight"
+            app:met_iconLeft="@drawable/ic_lock_black_24dp"
+            app:met_iconPadding="0dp" />
+
+        <com.rey.material.widget.Button
+            android:id="@+id/loginBtn"
+            style="@style/RaiseColorButtonRippleStyle"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal|center"
+            android:text="登录"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+            android:textColor="#FFFFFFFF"
+            app:rd_delayClick="true" />
+         <com.rey.material.widget.TextView
+            android:id="@+id/RegistTxt"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+       		android:layout_gravity="right"
+       		android:layout_marginTop="10dp"
+            android:text="立即注册"
+            android:textColor="#FFFFFFFF"
+            app:rd_delayClick="true" />
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_loading" />
+ 
+</FrameLayout>

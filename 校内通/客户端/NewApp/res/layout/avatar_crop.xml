@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ll_comm_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:background="@color/top_color" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:drawableLeft="@drawable/photo_selector_back_arrow"
+            android:drawablePadding="@dimen/tiny_space"
+            android:gravity="center_vertical"
+            android:paddingBottom="5dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="40dp"
+            android:paddingTop="5dp"
+            android:text="@string/main_back"
+            android:textColor="@drawable/photo_xml_back_textcolor"
+            android:textSize="@dimen/topbar_right_textSize"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/topbarTittleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLength="16"
+            android:text="裁剪头像"
+            android:textSize="@dimen/topbar_textSize" />
+
+        <Button
+            android:id="@+id/btn_done"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:paddingBottom="5dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="确定"
+            android:textColor="@drawable/photo_xml_back_textcolor"
+            android:textSize="@dimen/topbar_right_textSize" />
+    </RelativeLayout>
+
+    <com.jxkr.common.library.avatar.ImageCutView
+        android:id="@+id/imageCutView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        android:src="@drawable/ic_launcher" >
+    </com.jxkr.common.library.avatar.ImageCutView>
+
+</LinearLayout>

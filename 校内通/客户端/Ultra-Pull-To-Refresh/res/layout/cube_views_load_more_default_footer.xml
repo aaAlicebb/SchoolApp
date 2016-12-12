@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/cube_views_load_more_default_footer_text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:visibility="invisible" />
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cube_views_load_more_default_footer_progressbar"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:indeterminate="true"
+    app:cpb_color="#0000ff"
+    app:cpb_max_sweep_angle="300"
+    app:cpb_min_sweep_angle="10"
+    app:cpb_rotation_speed="0.7"
+    app:cpb_stroke_width="4dp"
+    app:cpb_sweep_speed="1.0" />
+
+<!--     <fr.castorflex.android.smoothprogressbar.SmoothProgressBar -->
+<!--         xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!--         xmlns:app="http://schemas.android.com/apk/res-auto" -->
+<!--         android:id="@+id/cube_views_load_more_default_footer_progressbar" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:indeterminate="true" -->
+<!--         app:spb_mirror_mode="true" -->
+<!--         app:spb_progressiveStart_activated="true" -->
+<!--         app:spb_progressiveStart_speed="1.5" -->
+<!--         app:spb_progressiveStop_speed="3.4" -->
+<!--         app:spb_reversed="true" -->
+<!--         app:spb_sections_count="3" -->
+<!--         app:spb_speed="2.0" -->
+<!--         app:spb_stroke_separator_length="4dp" -->
+<!--         app:spb_stroke_width="4dp" /> -->
+
+</RelativeLayout>

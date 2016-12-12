@@ -1,0 +1,19 @@
+<com.jxkr.common.library.pickphoto.SquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <com.jxkr.common.library.pickphoto.SinkingView
+        android:id="@+id/sinking"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/main_gridView_item_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/add_photo_icon" />
+    </com.jxkr.common.library.pickphoto.SinkingView>
+
+</com.jxkr.common.library.pickphoto.SquareRelativeLayout>

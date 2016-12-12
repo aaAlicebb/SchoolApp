@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="/SystemBarTint"/>
+	<classpathentry kind="src" path="/ObservableScrollview"/>
+	<classpathentry kind="lib" path="D:/java/adt-bundle-windows-x86_64-20140702/sdk/platforms/android-22/android.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/D:/java/adt-bundle-windows-x86_64-20140702/sdk/docs/reference"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="nonaccessible" pattern="com/android/internal/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="libs/gcm.jar"/>
+	<classpathentry exported="true" kind="src" path="/RongIMKit"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

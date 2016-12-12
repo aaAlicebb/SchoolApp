@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="select_album">选择相册</string>
+    <string name="select_image">选择图片</string>
+    <string name="latest_image">最近照片</string>
+    <string name="photo_album">相册</string>
+
+    <string name="main_confirm">确定</string>
+    <string name="main_cancel">取消</string>
+    <string name="main_back">返回</string>
+    
+    <color name="gray_bg">#cccccc</color>
+    <color name="gray_dark_bg">#666666</color>
+
+    <!--主题颜色-->
+    <color name="top_color">#3085E6</color>
+    <color name="image_checked_bg">#66000000</color>
+
+    <!-- 菜单栏 按钮文字颜色 -->
+    <color name="topbar_btn_text_color">#ffffff</color>
+
+    <!-- 返回按钮 字体颜色 -->
+    <color name="back_color_noclick">#ffff</color>
+    <color name="back_color_click">#8fff</color>
+    
+    
+    
+     <!-- 顶部 导航栏高度 -->
+    <dimen name="topbar_height">48dp</dimen>
+
+    <!-- 应用边距尺寸 -->
+    <!-- 30 ~ 32px -->
+    <dimen name="big_space">18dp</dimen>
+    <!-- 20 ~ 24px -->
+    <dimen name="middle_space">14dp</dimen>
+    <!-- 14 ~ 18px -->
+    <dimen name="small_space">8dp</dimen>
+    <!-- <14px -->
+    <dimen name="tiny_space">4dp</dimen>
+
+    <!-- 顶部 导航栏标题字体大小 -->
+    <dimen name="topbar_textSize">20sp</dimen>
+    <!-- 顶部 导航栏标题字体大小 -->
+    <dimen name="topbar_right_textSize">18sp</dimen>
+    
+     <!-- 顶部标题栏标题文本样式 -->
+    <style name="topbarTittleTheme">
+        <item name="android:textColor">@color/topbar_btn_text_color</item>
+    </style>
+
+     <style name="anim_popup_dir">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/com.kindergarten.parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp" >
+
+            <com.rey.material.widget.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="请核实以下信息"
+                android:textColor="@color/colorTextSecondPrimary"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <com.rey.material.widget.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="您的姓名："
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/nameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="熊大大"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <com.rey.material.widget.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="学  号："
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/phTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12345678987"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp" />
+                
+            </LinearLayout>
+	  <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+             <com.rey.material.widget.TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="所在学校："
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <com.rey.material.widget.TextView
+                    android:id="@+id/schoolTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12345678987"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22sp" />
+                </LinearLayout>
+
+            <com.example.common.view.NoScrollListView
+                android:id="@+id/childListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@color/colorDivider"
+                android:dividerHeight="1dp" />
+
+            <com.rey.material.widget.TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="如信息有误，请务必向管理员请求修改您的信息"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp" />
+
+            <com.rey.material.widget.Button
+                android:id="@+id/confirmBtn"
+                style="@style/RaiseColorButtonRippleStyle"
+                android:layout_marginTop="40dp"
+                android:text="确认激活"
+                 />
+        </LinearLayout>
+
+        <include layout="@layout/layout_loading" />
+    </FrameLayout>
+
+</ScrollView>

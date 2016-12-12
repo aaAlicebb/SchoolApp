@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemContainer"
+    android:layout_width="196dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:scaleX="0"
+    android:scaleY="0" >
+
+    <ImageView
+        android:id="@+id/typeImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/bg_user_center"
+        android:background="@color/image_without_palette"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@+id/textContainer"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@color/image_without_palette"
+        android:padding="8dp" >
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_without_palette"
+            android:text="情感天地" />
+        
+        <TextView
+            android:id="@+id/countTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:layout_alignBaseline="@+id/nameTextView"
+            android:layout_alignParentRight="true"
+            android:textSize="14sp"
+            android:textColor="@color/text_without_palette"
+            android:text="话题：123" />
+
+        <TextView
+            android:id="@+id/descTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameTextView"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:lines="2"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_without_palette"
+            android:textSize="12sp"
+            android:text="防晒粉底霜倒萨大苏倒萨撒倒萨撒大撒旦撒倒萨撒旦倒萨阿萨德阿斯" />
+    </RelativeLayout>
+
+</LinearLayout>
