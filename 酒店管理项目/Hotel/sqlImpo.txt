@@ -1,0 +1,101 @@
+create database Hotel
+go
+use Hotel
+go
+/*创建房间信息表,该项都不能为空*/
+create table RoomInfo
+(
+ RoomId int not null primary key,
+ RoomType varchar(50) null,
+ RoomBed int null,
+ RoomFreeBed int null,
+ RoomPrice decimal(10) null,
+ RoomRemark varchar(50) null,
+ RoomState varchar(50) null,
+ RoomFloatId int null,
+)
+/*创建客人登记表*/
+create table InInfo
+(
+  InNumber int null,
+  CName varchar(50) null,
+  RoomId int foreign key references RoomInfo(RoomId) not null,
+  CSex bit null,
+  InDays int null,
+  InPeopleCount int null,
+  ZjType varchar not null,
+  ZjNumber int null,
+  CAddress varchar(50) null,
+  CPhone int null,
+  CNationality varchar(50) null,
+  RoomRelPrice decimal(10) null,
+  Foregift decimal(10) null,
+  CInTime date null,
+  CLeveTime date null,
+  InType varchar(50) null,
+  InFriends varchar(50) null,
+)
+/*创建消费入账表*/
+create table ConsumeInfo
+(
+	CostName varchar(50) null,
+	GoodsPrice decimal(10) null,
+	GoodsCount int null,
+	TotolAmount decimal (10) null,
+	RoomId int null,
+	CostTime date null,
+	CostNumber int null,
+	
+)
+/*仓库货品列表*/
+create table GoodsListInfo
+(
+GoodsName varchar(50) not null,
+GoodsPrice decimal(10) not null,
+GoodsCount int not null,
+)
+/*结账退房表*/
+create table CheckoutInfo
+(
+CheckoutId int not null,
+RoomId int Not Null,
+CheckOutTime date null,
+CheckAmount decimal(10) null,
+)
+/*用户表*/
+create table UserInfo
+(
+UserId int identity(1,1) not null,
+UserAccount varchar(50)not null,
+UserPwd varchar(50) not null,
+UserType varchar(50) not null,
+)
+use hotels
+go
+create table VipRoomInfo
+(
+  id int identity(1,1),
+  VipId varchar(50) null,
+  VipName varchar(50) null,
+  VipSex bit null,
+  VipType varchar(50) null,
+  VipPhone varchar(50) null,
+  VipZJType varchar(50) null,
+  VipZJNumber varchar(50) null,
+  AccountTotol decimal null,
+  AccountSpent decimal null,
+  VipState varchar(50) null,
+  VipCreateTime date null,
+  VipRemark varchar(50) null
+)
+go
+create table InFriendInfo
+(
+ InNumber varchar(100) null,
+ CustName varchar(100) null,
+ CusPhone varcahr(50) null,
+ ZJType varcahr(50) null,
+ ZJNumber varchar(50) null,
+ InAddress varchar(50) null,
+ RoomId varchar(50) null,
+)

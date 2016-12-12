@@ -1,0 +1,283 @@
+D:\资料\项目\Hotel\Hotel.UI\bin\Debug\Hotel.UI.exe
+D:\资料\项目\Hotel\Hotel.UI\bin\Debug\Hotel.UI.pdb
+D:\资料\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csprojResolveAssemblyReference.cache
+D:\资料\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmLogin.resources
+D:\资料\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.Properties.Resources.resources
+D:\资料\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csproj.GenerateResource.Cache
+D:\资料\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.exe
+D:\资料\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.pdb
+D:\资料\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.resources
+G:\Hotel\Hotel.UI\obj\Debug\Hotel.UI.exe
+G:\Hotel\Hotel.UI\obj\Debug\Hotel.UI.pdb
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\bin\Debug\Hotel.UI.exe.config
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.exe
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.pdb
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\bin\Debug\Hotel.UI.exe
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\bin\Debug\Hotel.UI.pdb
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\bin\Debug\zh\Hotel.UI.resources.dll
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\bin\Debug\zu\Hotel.UI.resources.dll
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\bin\Debug\Hotel.BLL.dll
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\bin\Debug\Hotel.Model.dll
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\bin\Debug\Hotel.DAL.dll
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\bin\Debug\Hotel.DBHelper.dll
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\bin\Debug\Hotel.BLL.pdb
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\bin\Debug\Hotel.Model.pdb
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\bin\Debug\Hotel.DAL.pdb
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\bin\Debug\Hotel.DBHelper.pdb
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csprojResolveAssemblyReference.cache
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmAccount.resources
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmHotelRe.resources
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmLogin.resources
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.resources
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmRoomManager.resources
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmThingAdd.resources
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmUserEnroll.resources
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmWorkChange.resources
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.Properties.Resources.resources
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.RoomAdd.resources
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.RoomUpdate.resources
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.showMessage.resources
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.UCRoom.resources
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.zh.resources
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.zu.resources
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csproj.GenerateResource.Cache
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\zh\Hotel.UI.resources.dll
+C:\Users\cyf\Desktop\Hotel\Hotel.UI\obj\Debug\zu\Hotel.UI.resources.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\bin\Debug\Hotel.UI.exe.config
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.exe
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\bin\Debug\Hotel.UI.exe
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\bin\Debug\Hotel.UI.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\bin\Debug\zh\Hotel.UI.resources.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\bin\Debug\zu\Hotel.UI.resources.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\bin\Debug\Hotel.BLL.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\bin\Debug\Hotel.Model.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\bin\Debug\Hotel.DAL.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\bin\Debug\Hotel.DBHelper.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\bin\Debug\Hotel.BLL.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\bin\Debug\Hotel.Model.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\bin\Debug\Hotel.DAL.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\bin\Debug\Hotel.DBHelper.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmAccount.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmHotelRe.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmLogin.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmRoomManager.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmThingAdd.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmUserEnroll.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmWorkChange.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.Properties.Resources.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.RoomAdd.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.RoomUpdate.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.showMessage.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.UCRoom.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.zh.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.zu.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csproj.GenerateResource.Cache
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\zh\Hotel.UI.resources.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.UI\obj\Debug\zu\Hotel.UI.resources.dll
+H:\here\Hotel\Hotel.UI\bin\Debug\Hotel.UI.exe.config
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.exe
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.pdb
+H:\here\Hotel\Hotel.UI\bin\Debug\Hotel.UI.exe
+H:\here\Hotel\Hotel.UI\bin\Debug\Hotel.UI.pdb
+H:\here\Hotel\Hotel.UI\bin\Debug\zh\Hotel.UI.resources.dll
+H:\here\Hotel\Hotel.UI\bin\Debug\zu\Hotel.UI.resources.dll
+H:\here\Hotel\Hotel.UI\bin\Debug\Hotel.BLL.dll
+H:\here\Hotel\Hotel.UI\bin\Debug\Hotel.Model.dll
+H:\here\Hotel\Hotel.UI\bin\Debug\Hotel.DAL.dll
+H:\here\Hotel\Hotel.UI\bin\Debug\Hotel.DBHelper.dll
+H:\here\Hotel\Hotel.UI\bin\Debug\Hotel.BLL.pdb
+H:\here\Hotel\Hotel.UI\bin\Debug\Hotel.Model.pdb
+H:\here\Hotel\Hotel.UI\bin\Debug\Hotel.DAL.pdb
+H:\here\Hotel\Hotel.UI\bin\Debug\Hotel.DBHelper.pdb
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csprojResolveAssemblyReference.cache
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmAccount.resources
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmHotelRe.resources
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmLogin.resources
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.resources
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmRoomManager.resources
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmThingAdd.resources
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmUserEnroll.resources
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmWorkChange.resources
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.Properties.Resources.resources
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.RoomAdd.resources
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.RoomUpdate.resources
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.showMessage.resources
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.UCRoom.resources
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.zh.resources
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.zu.resources
+H:\here\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csproj.GenerateResource.Cache
+H:\here\Hotel\Hotel.UI\obj\Debug\zh\Hotel.UI.resources.dll
+H:\here\Hotel\Hotel.UI\obj\Debug\zu\Hotel.UI.resources.dll
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.UI.exe.config
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.exe
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.pdb
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.UI.exe
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.UI.pdb
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\bin\Debug\zh\Hotel.UI.resources.dll
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\bin\Debug\zu\Hotel.UI.resources.dll
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.BLL.dll
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.Model.dll
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.DAL.dll
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.DBHelper.dll
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.BLL.pdb
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.Model.pdb
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.DAL.pdb
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.DBHelper.pdb
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csprojResolveAssemblyReference.cache
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.ChildSpend.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmAccount.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmHotelRe.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmLogin.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmRoomManager.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.FmSpend.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmThingAdd.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmUserEnroll.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmWorkChange.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.Properties.Resources.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.RoomAdd.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.RoomUpdate.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.showMessage.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.UCRoom.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.zh.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.zu.resources
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csproj.GenerateResource.Cache
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\zh\Hotel.UI.resources.dll
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.UI\obj\Debug\zu\Hotel.UI.resources.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.UI.exe.config
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.exe
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.UI.exe
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.UI.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\bin\Debug\zh\Hotel.UI.resources.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\bin\Debug\zu\Hotel.UI.resources.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.BLL.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.Model.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.DAL.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.DBHelper.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.BLL.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.Model.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.DAL.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\bin\Debug\Hotel.DBHelper.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.ChildSpend.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmAccount.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmHotelRe.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmLogin.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmRoomManager.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.FmSpend.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmThingAdd.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmUserEnroll.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmWorkChange.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.Properties.Resources.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.RoomAdd.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.RoomUpdate.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.showMessage.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.UCRoom.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.zh.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.zu.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csproj.GenerateResource.Cache
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\zh\Hotel.UI.resources.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\zu\Hotel.UI.resources.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csprojResolveAssemblyReference.cache
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csprojResolveAssemblyReference.cache
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.ChildSpend.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmAccount.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmAddUser.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmBookAlter.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmChoose.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmInAlter.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmLogin.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMess.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmProgress.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmRoomChange.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmRoomManager.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.FmSpend.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmThingAdd.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmThingDe.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmUser.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmAcgtcs.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmVipUpdate.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmWorkChange.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.Foregift.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.Properties.Resources.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.RoomAdd.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.RoomUpdate.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.showMessage.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.showMessagecs.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.showMessageok.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.UCRoom.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.VipAdd.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.zh.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.zu.resources
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csproj.GenerateResource.Cache
+G:\vs项目\项目\Hotel\Hotel.UI\bin\Debug\Hotel.UI.exe.config
+G:\vs项目\项目\Hotel\Hotel.UI\bin\Debug\Hotel.UI.exe
+G:\vs项目\项目\Hotel\Hotel.UI\bin\Debug\Hotel.UI.pdb
+G:\vs项目\项目\Hotel\Hotel.UI\bin\Debug\zh\Hotel.UI.resources.dll
+G:\vs项目\项目\Hotel\Hotel.UI\bin\Debug\zu\Hotel.UI.resources.dll
+G:\vs项目\项目\Hotel\Hotel.UI\bin\Debug\Hotel.BLL.dll
+G:\vs项目\项目\Hotel\Hotel.UI\bin\Debug\Hotel.Model.dll
+G:\vs项目\项目\Hotel\Hotel.UI\bin\Debug\Hotel.DAL.dll
+G:\vs项目\项目\Hotel\Hotel.UI\bin\Debug\Hotel.DBHelper.dll
+G:\vs项目\项目\Hotel\Hotel.UI\bin\Debug\Hotel.BLL.pdb
+G:\vs项目\项目\Hotel\Hotel.UI\bin\Debug\Hotel.Model.pdb
+G:\vs项目\项目\Hotel\Hotel.UI\bin\Debug\Hotel.DAL.pdb
+G:\vs项目\项目\Hotel\Hotel.UI\bin\Debug\Hotel.DBHelper.pdb
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\zh\Hotel.UI.resources.dll
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\zu\Hotel.UI.resources.dll
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.exe
+G:\vs项目\项目\Hotel\Hotel.UI\obj\Debug\Hotel.UI.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\bin\Debug\Hotel.UI.exe.config
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.exe
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\bin\Debug\Hotel.UI.exe
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\bin\Debug\Hotel.UI.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\bin\Debug\zh\Hotel.UI.resources.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\bin\Debug\zu\Hotel.UI.resources.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\bin\Debug\Hotel.BLL.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\bin\Debug\Hotel.Model.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\bin\Debug\Hotel.DAL.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\bin\Debug\Hotel.DBHelper.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\bin\Debug\Hotel.BLL.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\bin\Debug\Hotel.Model.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\bin\Debug\Hotel.DAL.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\bin\Debug\Hotel.DBHelper.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.ChildSpend.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmAccount.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmAddUser.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmBookAlter.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmChoose.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmInAlter.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmLogin.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMess.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmProgress.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmRoomChange.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmRoomManager.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.FmSpend.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmThingAdd.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmThingDe.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmUser.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmAcgtcs.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmVipUpdate.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmWorkChange.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.Foregift.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.Properties.Resources.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.RoomAdd.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.RoomUpdate.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.showMessage.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.showMessagecs.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.showMessageok.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.UCRoom.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.VipAdd.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.zh.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.fmMain.zu.resources
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\Hotel.UI.csproj.GenerateResource.Cache
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\zh\Hotel.UI.resources.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.UI\obj\Debug\zu\Hotel.UI.resources.dll

@@ -1,0 +1,30 @@
+C:\Users\cyf\Desktop\Hotel\Hotel.DBHelper\bin\Debug\Hotel.DBHelper.dll
+C:\Users\cyf\Desktop\Hotel\Hotel.DBHelper\bin\Debug\Hotel.DBHelper.pdb
+C:\Users\cyf\Desktop\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.dll
+C:\Users\cyf\Desktop\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.pdb
+C:\Users\cyf\Desktop\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.DBHelper\bin\Debug\Hotel.DBHelper.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.DBHelper\bin\Debug\Hotel.DBHelper.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.csprojResolveAssemblyReference.cache
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.DBHelper\bin\Debug\Hotel.DBHelper.dll
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.DBHelper\bin\Debug\Hotel.DBHelper.pdb
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.csprojResolveAssemblyReference.cache
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.dll
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.DBHelper\bin\Debug\Hotel.DBHelper.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.DBHelper\bin\Debug\Hotel.DBHelper.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.pdb
+G:\vs项目\项目\Hotel\Hotel.DBHelper\bin\Debug\Hotel.DBHelper.dll
+G:\vs项目\项目\Hotel\Hotel.DBHelper\bin\Debug\Hotel.DBHelper.pdb
+G:\vs项目\项目\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.csprojResolveAssemblyReference.cache
+G:\vs项目\项目\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.dll
+G:\vs项目\项目\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.DBHelper\bin\Debug\Hotel.DBHelper.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.DBHelper\bin\Debug\Hotel.DBHelper.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.DBHelper\obj\Debug\Hotel.DBHelper.pdb

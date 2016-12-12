@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="hotelsDataSet1" targetNamespace="http://tempuri.org/hotelsDataSet1.xsd" xmlns:mstns="http://tempuri.org/hotelsDataSet1.xsd" xmlns="http://tempuri.org/hotelsDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="hotelsConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="hotelsConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Hotel.UI.Properties.Settings.GlobalReference.Default.hotelsConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="V_cutomerInfoTableAdapter" GeneratorDataComponentClassName="V_cutomerInfoTableAdapter" Name="V_cutomerInfo" UserDataComponentName="V_cutomerInfoTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="hotelsConnectionString (Settings)" DbObjectName="hotels.dbo.V_cutomerInfo" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT CheckoutId, CName, RoomId, ZjNumber, CAddress, CPhone, CInTime, CLeveTime, InType FROM dbo.V_cutomerInfo</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CheckoutId" DataSetColumn="CheckoutId" />
+              <Mapping SourceColumn="CName" DataSetColumn="CName" />
+              <Mapping SourceColumn="RoomId" DataSetColumn="RoomId" />
+              <Mapping SourceColumn="ZjNumber" DataSetColumn="ZjNumber" />
+              <Mapping SourceColumn="CAddress" DataSetColumn="CAddress" />
+              <Mapping SourceColumn="CPhone" DataSetColumn="CPhone" />
+              <Mapping SourceColumn="CInTime" DataSetColumn="CInTime" />
+              <Mapping SourceColumn="CLeveTime" DataSetColumn="CLeveTime" />
+              <Mapping SourceColumn="InType" DataSetColumn="InType" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="hotelsDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="hotelsDataSet1" msprop:Generator_UserDSName="hotelsDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="V_cutomerInfo" msprop:Generator_TableClassName="V_cutomerInfoDataTable" msprop:Generator_TableVarName="tableV_cutomerInfo" msprop:Generator_TablePropName="V_cutomerInfo" msprop:Generator_RowDeletingName="V_cutomerInfoRowDeleting" msprop:Generator_RowChangingName="V_cutomerInfoRowChanging" msprop:Generator_RowEvHandlerName="V_cutomerInfoRowChangeEventHandler" msprop:Generator_RowDeletedName="V_cutomerInfoRowDeleted" msprop:Generator_UserTableName="V_cutomerInfo" msprop:Generator_RowChangedName="V_cutomerInfoRowChanged" msprop:Generator_RowEvArgName="V_cutomerInfoRowChangeEvent" msprop:Generator_RowClassName="V_cutomerInfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CheckoutId" msprop:Generator_ColumnVarNameInTable="columnCheckoutId" msprop:Generator_ColumnPropNameInRow="CheckoutId" msprop:Generator_ColumnPropNameInTable="CheckoutIdColumn" msprop:Generator_UserColumnName="CheckoutId">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CName" msprop:Generator_ColumnVarNameInTable="columnCName" msprop:Generator_ColumnPropNameInRow="CName" msprop:Generator_ColumnPropNameInTable="CNameColumn" msprop:Generator_UserColumnName="CName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RoomId" msprop:Generator_ColumnVarNameInTable="columnRoomId" msprop:Generator_ColumnPropNameInRow="RoomId" msprop:Generator_ColumnPropNameInTable="RoomIdColumn" msprop:Generator_UserColumnName="RoomId" type="xs:int" />
+              <xs:element name="ZjNumber" msprop:Generator_ColumnVarNameInTable="columnZjNumber" msprop:Generator_ColumnPropNameInRow="ZjNumber" msprop:Generator_ColumnPropNameInTable="ZjNumberColumn" msprop:Generator_UserColumnName="ZjNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CAddress" msprop:Generator_ColumnVarNameInTable="columnCAddress" msprop:Generator_ColumnPropNameInRow="CAddress" msprop:Generator_ColumnPropNameInTable="CAddressColumn" msprop:Generator_UserColumnName="CAddress" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CPhone" msprop:Generator_ColumnVarNameInTable="columnCPhone" msprop:Generator_ColumnPropNameInRow="CPhone" msprop:Generator_ColumnPropNameInTable="CPhoneColumn" msprop:Generator_UserColumnName="CPhone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CInTime" msprop:Generator_ColumnVarNameInTable="columnCInTime" msprop:Generator_ColumnPropNameInRow="CInTime" msprop:Generator_ColumnPropNameInTable="CInTimeColumn" msprop:Generator_UserColumnName="CInTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CLeveTime" msprop:Generator_ColumnVarNameInTable="columnCLeveTime" msprop:Generator_ColumnPropNameInRow="CLeveTime" msprop:Generator_ColumnPropNameInTable="CLeveTimeColumn" msprop:Generator_UserColumnName="CLeveTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="InType" msprop:Generator_ColumnVarNameInTable="columnInType" msprop:Generator_ColumnPropNameInRow="InType" msprop:Generator_ColumnPropNameInTable="InTypeColumn" msprop:Generator_UserColumnName="InType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

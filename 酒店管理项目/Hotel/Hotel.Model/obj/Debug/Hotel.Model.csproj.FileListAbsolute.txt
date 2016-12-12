@@ -1,0 +1,32 @@
+D:\资料\项目\Hotel\Hotel.Model\bin\Debug\Hotel.Model.dll
+D:\资料\项目\Hotel\Hotel.Model\bin\Debug\Hotel.Model.pdb
+D:\资料\项目\Hotel\Hotel.Model\obj\Debug\Hotel.Model.csprojResolveAssemblyReference.cache
+D:\资料\项目\Hotel\Hotel.Model\obj\Debug\Hotel.Model.dll
+D:\资料\项目\Hotel\Hotel.Model\obj\Debug\Hotel.Model.pdb
+C:\Users\cyf\Desktop\Hotel\Hotel.Model\bin\Debug\Hotel.Model.dll
+C:\Users\cyf\Desktop\Hotel\Hotel.Model\bin\Debug\Hotel.Model.pdb
+C:\Users\cyf\Desktop\Hotel\Hotel.Model\obj\Debug\Hotel.Model.dll
+C:\Users\cyf\Desktop\Hotel\Hotel.Model\obj\Debug\Hotel.Model.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.Model\bin\Debug\Hotel.Model.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.Model\bin\Debug\Hotel.Model.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.Model\obj\Debug\Hotel.Model.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\新建文件夹 (2)\Hotel\Hotel.Model\obj\Debug\Hotel.Model.pdb
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.Model\bin\Debug\Hotel.Model.dll
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.Model\bin\Debug\Hotel.Model.pdb
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.Model\obj\Debug\Hotel.Model.csprojResolveAssemblyReference.cache
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.Model\obj\Debug\Hotel.Model.dll
+C:\Users\mt\Desktop\融合\终结者一\Hotel\Hotel.Model\obj\Debug\Hotel.Model.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.Model\bin\Debug\Hotel.Model.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.Model\bin\Debug\Hotel.Model.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.Model\obj\Debug\Hotel.Model.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.Model\obj\Debug\Hotel.Model.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\测试入点\终结者一\Hotel\Hotel.Model\obj\Debug\Hotel.Model.csprojResolveAssemblyReference.cache
+G:\vs项目\项目\Hotel\Hotel.Model\bin\Debug\Hotel.Model.dll
+G:\vs项目\项目\Hotel\Hotel.Model\bin\Debug\Hotel.Model.pdb
+G:\vs项目\项目\Hotel\Hotel.Model\obj\Debug\Hotel.Model.dll
+G:\vs项目\项目\Hotel\Hotel.Model\obj\Debug\Hotel.Model.pdb
+G:\vs项目\项目\Hotel\Hotel.Model\obj\Debug\Hotel.Model.csprojResolveAssemblyReference.cache
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.Model\bin\Debug\Hotel.Model.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.Model\bin\Debug\Hotel.Model.pdb
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.Model\obj\Debug\Hotel.Model.dll
+C:\Users\Administrator.PC--20150301MGZ\Desktop\版本\Hotel\Hotel.Model\obj\Debug\Hotel.Model.pdb
